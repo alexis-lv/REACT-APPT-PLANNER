@@ -23,12 +23,11 @@ function App() {
   };
 
 
-  const addContact = ({ name, number, email }) => {
-    const newContact = { name: name, number: number, email: email}
-    setContacts([...contacts, newContact])
+  const addContact = (name, number, email) => {
+    setContacts([...contacts, { name: name, number: number, email: email }])
   }
 
-  const addAppointment = ({ title, contact, date, time}) => {
+  const addAppointment = (title, contact, date, time) => {
     const newAppt = { title: title, contact: contact, date: date, time: time };
     setAppointments([...appointments, newAppt]);
   }
