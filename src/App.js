@@ -5,10 +5,6 @@ import { AppointmentsPage } from "./containers/appointmentsPage/AppointmentsPage
 import { ContactsPage } from "./containers/contactsPage/ContactsPage";
 
 function App() {
-  /*
-  Define state variables for 
-  contacts and appointments 
-  */
  const [contacts, setContacts] = useState([
   { name: 'Alexis Weiss', number: 7028836373, email: 'alexissxo143@gmail.com' },
   { name: 'Adam Weiss', number: 7022835196, email: 'babymarketer@gmail.com'},
@@ -26,10 +22,6 @@ function App() {
     APPOINTMENTS: "/appointments",
   };
 
-  /*
-  Implement functions to add data to
-  contacts and appointments
-  */
 
   const addContact = ({ name, number, email }) => {
     const newContact = { name: name, number: number, email: email}
