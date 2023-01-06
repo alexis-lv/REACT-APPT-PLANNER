@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
 export const Tile = ({ tile }) => {
   return (
@@ -11,3 +12,7 @@ export const Tile = ({ tile }) => {
     </div>
   );
 };
+
+Tile.propTypes = {
+  tile: PropTypes.object.isRequired,
+}

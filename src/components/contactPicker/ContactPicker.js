@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
 export const ContactPicker = ({ name, contacts, onChange}) => {
   return (
@@ -16,3 +17,9 @@ export const ContactPicker = ({ name, contacts, onChange}) => {
     </select>
   );
 };
+
+ContactPicker.propTypes = {
+  name: PropTypes.string.isRequired,
+  contacts: PropTypes.array.isRequired,
+  onChange: PropTypes.func.isRequired,
+}
