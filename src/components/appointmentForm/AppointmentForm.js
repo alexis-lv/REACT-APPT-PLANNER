@@ -80,5 +80,4 @@ AppointmentForm.propTypes = {
   time: PropTypes.string.isRequired,
   setTime: PropTypes.func.isRequired,
   handleSubmit: PropTypes.func.isRequired,
-
 }
