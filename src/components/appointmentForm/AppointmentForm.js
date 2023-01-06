@@ -59,7 +59,6 @@ export const AppointmentForm = ({
                       value={contact}
                       contacts={getContactNames()}
                       onChange={(e) => setContact(e.target.value)}
-                      required
                       placeholder='Appointment With'/>
       </label>
       <br />
