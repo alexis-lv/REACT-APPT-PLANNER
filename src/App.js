@@ -6,14 +6,15 @@ import { ContactsPage } from "./containers/contactsPage/ContactsPage";
 
 function App() {
  const [contacts, setContacts] = useState([
-  { name: 'Alexis Weiss', number: 7028836373, email: 'alexissxo143@gmail.com' },
-  { name: 'Adam Weiss', number: 7022835196, email: 'babymarketer@gmail.com'},
-  { name: 'Grammy', number: 7028695288, email: 'grammy@gmail.com'}
+  { name: 'Bryan', number: 7028836373, email: 'bryan@gmail.com' },
+  { name: 'James', number: 7022835196, email: 'jamesb@gmail.com'},
+  { name: 'Farah', number: 7028695288, email: 'farahs@gmail.com'},
+  { name: 'Nadia', number: 7023259818, email: 'nadia@gmail.com'}
  ]);
  const [appointments, setAppointments] = useState([
-  { title: 'Work meeting', contact: 'Susan', date: 'Tuesday', time: '7:30pm' },
-  { title: 'Soccer Practice', contact: 'Bill', date: 'Sunday', time: '3:00pm' },
-  { title: 'Christmas Party', contact: 'Whole family', date: 'Friday', time: '8:00pm'}
+  { title: 'Work meeting', contact: 'Bryan', date: 'Tuesday', time: '7:30pm' },
+  { title: 'Soccer Practice', contact: 'James', date: 'Sunday', time: '3:00pm' },
+  { title: 'Christmas Party', contact: 'Farah', date: 'Friday', time: '8:00pm'}
  ]);
 
 
